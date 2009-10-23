@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cronentries>
+  <cron>
+    <url>/post</url>
+    <description>post every 20 minutes</description>
+    <schedule>every 20 minutes</schedule>
+  </cron>
+  <cron>
+    <url>/replies</url>
+    <description>post every 1 minutes</description>
+    <schedule>every 1 minutes</schedule>
+  </cron>
+  <cron>
+    <url>/direct</url>
+    <description>post every 20 minutes</description>
+    <schedule>every 20 minutes</schedule>
+  </cron>
+</cronentries>

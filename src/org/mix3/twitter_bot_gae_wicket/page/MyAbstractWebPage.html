@@ -1,0 +1,39 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ja" xml:lang="ja">
+<head>
+	<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+	<meta http-equiv="Content-Style-Type" content="text/css" />
+	<meta http-equiv="Content-Script-Type" content="text/javascript" />
+
+	<title wicket:id="header_title">タイトル</title>
+	<link type="image/x-icon" rel="shortcut icon" href="/favicon.ico" />
+</head>
+<body>
+<div id="wrapper">
+	<!-- navigation start -->
+	<div id="navigation">
+		<ul>
+			<li><a wicket:id="top" href="#" class="tabs"><span>トップ</span></a></li>
+			<li><a wicket:id="list" href="#" class="tabs"><span>一覧</span></a></li>
+			<li><a wicket:id="edit" href="#" class="tabs"><span>編集</span></a></li>
+			<li><a wicket:id="oauth" href="#" class="tabs"><span>反映</span></a></li>
+			<li><a wicket:id="admin" href="#" class="tabs"><span>管理</span></a></li>
+			<li><a wicket:id="login" href="#" class="tabs"><span>ログイン</span></a></li>
+			<li><a wicket:id="logout" href="#" class="tabs"><span>ログアウト</span></a></li>
+		</ul>
+	</div>
+	<!-- navigation end -->
+	<!-- Main contents start -->
+	<div id="contents">
+		<h2 class="contents_title"><a wicket:id="contents_title" href="#">コンテンツタイトル</a></h2>
+		<wicket:child />
+	</div>
+	<!-- Main contents end -->
+
+	<div id="footer">
+		Base template by <a href="http://jp.cssez.com/" target="_blank">CSSEZ.com</a>. Designed by <a href="http://pixiv.cc/mix3/" target="_blank">おっと萌えキャラの悪口はそこまでだ</a>. 
+	</div>
+</div>
+</body>
+</html>

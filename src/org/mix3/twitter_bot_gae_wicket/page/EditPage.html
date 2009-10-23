@@ -1,0 +1,32 @@
+<wicket:extend>
+	<div class="contents_body">
+		<p>
+	        <div style="color: red;" wicket:id="feedback">feedback</div>
+	        
+	        <div wicket:id="form_container">
+		        <form wicket:id="message">
+		        	 Replies: <input type="checkbox" wicket:id="type" />
+		        	 <span wicket:id="keyword_container">Keyword: <input type="text" wicket:id="keyword" /></span>
+		        	 Message: <input type="text" style="width: 200px;" wicket:id="message" />
+		        	<input type="submit" value="追加" wicket:id="submit" />
+		        </form>
+		        <form wicket:id="multi">
+		        	<textarea wrap="off" wicket:id="data" style="width: 640px; height: 120px;"></textarea><br />
+		        	<input type="submit" value="追加" wicket:id="submit" />
+		        </form>
+	        </div>
+	        <a href="#" wicket:id="switch">複数入力切替</a>
+	        <br />
+	        <ul wicket:id="container">
+	        	<li wicket:id="list">
+	        		<!-- ID: <span wicket:id="key">id</span> -->
+	        		Type: <span wicket:id="type">keyword</span> 
+	        		<span wicket:id="keyword_container">Keyword: <span wicket:id="keyword" class="inline-edit">keyword</span></span> 
+	        		Message: <span wicket:id="message" class="inline-edit">message</span> 
+	        		Date: <span wicket:id="date">date</span>
+	        	</li>
+	        	<div wicket:id="paging">paging</div>
+	        </ul>
+	    </p>
+	</div>
+</wicket:extend>

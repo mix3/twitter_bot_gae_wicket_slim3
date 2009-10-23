@@ -1,0 +1,20 @@
+<wicket:extend>
+	<div class="contents_body">
+		<p>
+			<ul wicket:id="tree">
+				<li wicket:id="list">
+					<span wicket:id="user.screenName">user</span>
+					<ul>
+						<li wicket:id="messages">
+							Type: <span wicket:id="type">keyword</span> 
+			        		<span wicket:id="keyword_container">Keyword: <span class="replies" wicket:id="keyword">keyword</span></span> 
+			        		Message: <span class="message" wicket:id="message">message</span> 
+			        		Date: <span wicket:id="date">date</span>
+						</li>
+					</ul>
+				</li>
+				<span wicket:id="paging" />
+			</ul>
+		</p>
+	</div>
+</wicket:extend>
